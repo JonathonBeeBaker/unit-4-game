@@ -10,19 +10,24 @@ body {
 }
 
 #gameSection, #scoreSection {
-	background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
 	margin-left: auto;
 	margin-right: auto;
 }
+#button-1, #button-3, #button-4, #button-2{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+#randomNumber {
+    color: #fd00c6;
+}
+#totalNumber {
+    color: #00ecfd;
+}
 
-/*FOR TESTING*/
-/*#numberSection, #totalPoints {
-	background-color: orange;
-}*/
 
 #buttonSection {
-
-	/*background-color: yellow;*/
+    
 	padding: 0px;
 	padding-top: 50px;
 	padding-bottom: 25px;
@@ -32,8 +37,12 @@ body {
 h1, h2, h3 {
 	font-family: 'Monoton', cursive;
 }
-h2 {
-    color: #000;
+
+#titleOne {
+    color: rgb(157, 255, 0);
+}
+h2, h3 {
+    color: rgb(157, 255, 0);
 }
 
 p {
@@ -47,6 +56,7 @@ p {
 
 /* images for buttons */
 .icons {
+   
 	display: inline-block;
   	max-width: 100px;
   	max-height: 100px;

@@ -135,7 +135,7 @@ $(document).ready(function() {
 			$("#wins").html("Wins: " + wins);
 
 
-			setTimeout(function() {gameReset("YOU WIN!!")}, 200);
+			setTimeout(function() {gameReset("Winner!")}, 200);
 		}
 
 		else if (totalScore > randNumber){
@@ -144,7 +144,7 @@ $(document).ready(function() {
 			$("#totalNumber").html(totalScore);
 			$("#losses").html("Losses: " + losses);
 
-			setTimeout(function() {gameReset("WOMP-WOMP...YOU LOSE!")}, 200);
+			setTimeout(function() {gameReset("Sorry, You Lose!")}, 200);
 		}
 	});
 
